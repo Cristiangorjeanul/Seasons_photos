@@ -1,0 +1,78 @@
+article h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  color: blue;
+}
+
+article h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: blue;
+}
+
+article h4 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: blue;
+}
+
+#inspiration {
+  height: 590px;
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (min-width: 769px) {
+  #inspiration {
+    top: 140px;
+  }
+}
+
+.steps {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.step {
+  height: 50%;
+  width: 18%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article p {
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: blue;
+}
+@media (min-width: 769px) {
+  article p {
+    font-size: 1.2rem;
+  }
+}
+
+.step img {
+  width: 100%;
+  border-radius: 5px;
+  border: solid blue 3px;
+}
+
+.inspirations {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 170px;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .inspirations {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+}

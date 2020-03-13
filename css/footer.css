@@ -1,0 +1,120 @@
+footer {
+  margin-top: 50px;
+}
+
+footer h5 {
+  font-size: 1rem;
+  text-align: center;
+  color: blue;
+  margin-top: 27rem;
+}
+
+@media (min-width: 769px) {
+  footer h5 {
+    margin-top: 10rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+footer label {
+  font-size: 0.9rem;
+  color: blue;
+  font-weight: bold;
+  margin-left: 41%;
+}
+
+@media (min-width: 768px) {
+  footer label {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 45%;
+  }
+}
+
+footer input {
+  width: 100%;
+  height: 35px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 0.9rem;
+  resize: none;
+}
+
+@media (min-width: 768px) {
+  footer input {
+    width: 50%;
+    font-size: 1.2rem;
+    margin-left: 25%;
+  }
+}
+
+footer textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 1rem;
+  resize: none;
+}
+@media (min-width: 768px) {
+  footer textarea {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.2rem;
+  }
+}
+
+#Send {
+  width: 17%;
+  height: 35px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 0.7rem;
+  resize: none;
+  margin-left: 42%;
+}
+
+@media (min-width: 768px) {
+  #Send {
+    width: 8%;
+    font-size: 0.8rem;
+    margin-left: 46%;
+  }
+}
+
+h6 {
+  font-size: 15px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+button {
+  width: 3.5rem;
+  height: 2rem;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-left: 43%;
+}
+@media (min-width: 768px) {
+  button {
+    width: 5rem;
+    height: 3rem;
+    margin-left: 46%;
+  }
+}

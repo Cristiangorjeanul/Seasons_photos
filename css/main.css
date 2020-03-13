@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif, Verdana;
+}
+
+#mainbackground {
+  width: 95%;
+  height: 450px;
+  background-image: linear-gradient(blue, lightblue, blue);
+  margin: 0 auto;
+}
+
+.callToAction.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToAction h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  color: white;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .callToAction h1 {
+    font-size: 6.1rem;
+  }
+}
+
+.mainInfo {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.mainInfo a {
+  color: white;
+  padding: 2px 5px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 769px) {
+  .mainInfo a {
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+  }
+}
+
+.mainInfo a:hover {
+  letter-spacing: 5px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  height: 90%;
+  margin: 0 auto;
+}
+
+#colorBoxes {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#colorBoxes.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  top: 10px;
+}
+@media (min-width: 769px) {
+  .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -80px;
+  }
+}
+
+.box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 25%;
+  min-width: 220px;
+  background-color: blue;
+  width: 23%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  align-items: center;
+  box-shadow: 10px 10px 50px -20px grey;
+}
+@media (min-width: 769px) {
+  .box {
+    height: 50%;
+    min-width: 220px;
+    background-color: blue;
+    width: 23%;
+    text-align: center;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 50px -20px grey;
+  }
+}
+
+.box img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  section {
+    height: 1000px;
+    margin-top: 5rem;
+  }
+}
