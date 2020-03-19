@@ -39,7 +39,8 @@ footer input {
   box-sizing: border-box;
   border: 2px solid blue;
   border-radius: 4px;
-  background-color: lightblue;
+  text-align: center;
+  background-color: rgb(212, 236, 245);
   font-size: 0.9rem;
   resize: none;
 }
@@ -58,8 +59,9 @@ footer textarea {
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid blue;
+  text-align: center;
   border-radius: 4px;
-  background-color: lightblue;
+  background-color: rgb(212, 236, 245);
   font-size: 1rem;
   resize: none;
 }
@@ -78,7 +80,7 @@ footer textarea {
   box-sizing: border-box;
   border: 2px solid blue;
   border-radius: 4px;
-  background-color: lightblue;
+  background-color: greenyellow;
   font-size: 0.7rem;
   resize: none;
   margin-left: 42%;
@@ -88,6 +90,7 @@ footer textarea {
   #Send {
     width: 8%;
     font-size: 0.8rem;
+    font-weight: 700;
     margin-left: 46%;
   }
 }
@@ -110,6 +113,7 @@ button {
   color: white;
   text-align: center;
   margin-left: 43%;
+  font-weight: 700;
 }
 @media (min-width: 768px) {
   button {
