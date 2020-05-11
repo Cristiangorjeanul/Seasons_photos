@@ -29,7 +29,7 @@ article h4 {
 }
 
 .steps {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -59,10 +59,34 @@ article p {
   width: 100%;
   border-radius: 5px;
   border: solid blue 3px;
+  box-shadow: 10px 10px 50px -20px grey;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 769px) {
+  .step img {
+    justify-content: center;
+  }
+}
+
+#result {
+  background: url("/assets/images/itGarden.jpg") no-repeat fixed;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  color: white;
+  background-size: cover;
+}
+
+@media (min-width: 769px) {
+  #result {
+    height: 350px;
+  }
 }
 
 .inspirations {
-  margin-top: 20px;
+  margin: 20px;
   display: flex;
   flex-wrap: wrap;
   height: 170px;

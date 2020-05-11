@@ -1,19 +1,16 @@
-footer {
-  margin-top: 50px;
-}
 
 footer h5 {
   font-size: 1rem;
   text-align: center;
   color: blue;
-  margin-top: 27rem;
+  margin-top: 63rem;
 }
 
 @media (min-width: 769px) {
   footer h5 {
-    margin-top: 10rem;
     font-size: 2rem;
     text-align: center;
+    margin-top: 50rem;
   }
 }
 

@@ -10,15 +10,21 @@ body {
 
 #mainbackground {
   width: 95%;
-  height: 450px;
-  background-image: linear-gradient(blue, lightblue, blue);
+  height: 370px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #mainbackground {
+    height: 450px;
+  }
 }
 
 .callToAction.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("/assets/images/Magnolia.jpg");
 }
 
 .callToAction h1 {
