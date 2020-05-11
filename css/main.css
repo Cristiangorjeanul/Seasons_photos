@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/assets/images/Magnolia.jpg");
+  background-image: linear-gradient(blue, lightblue, blue);
 }
 
 .callToAction h1 {
