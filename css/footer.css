@@ -1,21 +1,18 @@
-
 footer h5 {
-  font-size: 1rem;
+  font-size: 15px;
   text-align: center;
   color: blue;
-  margin-top: 63rem;
+  margin-top: 650px;
 }
 
 @media (min-width: 769px) {
   footer h5 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 50rem;
+    font-size: 32px;
   }
 }
 
 footer label {
-  font-size: 0.9rem;
+  font-size: 15px;
   color: blue;
   font-weight: bold;
   margin-left: 41%;
@@ -23,9 +20,32 @@ footer label {
 
 @media (min-width: 768px) {
   footer label {
-    font-size: 1.2rem;
+    font-size: 20px;
     text-align: center;
     margin-left: 45%;
+  }
+}
+
+.fake-input {
+  width: 100%;
+  height: 25px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 0.6rem;
+  resize: none;
+}
+
+@media (min-width: 768px) {
+  .fake-input {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 21px;
+    font-weight: 700;
+    align-items: center;
   }
 }
 
@@ -37,15 +57,15 @@ footer input {
   border: 2px solid blue;
   border-radius: 4px;
   text-align: center;
-  background-color: rgb(212, 236, 245);
-  font-size: 0.9rem;
+  background-color: lightblue;
+  font-size: 15px;
   resize: none;
 }
 
 @media (min-width: 768px) {
   footer input {
     width: 50%;
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-left: 25%;
   }
 }
@@ -59,34 +79,36 @@ footer textarea {
   text-align: center;
   border-radius: 4px;
   background-color: rgb(212, 236, 245);
-  font-size: 1rem;
+  font-size: 15px;
   resize: none;
 }
+
 @media (min-width: 768px) {
   footer textarea {
     width: 50%;
     margin-left: 25%;
-    font-size: 1.2rem;
+    font-size: 20px;
   }
 }
 
 #Send {
-  width: 17%;
+  width: 20%;
   height: 35px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid blue;
   border-radius: 4px;
   background-color: greenyellow;
-  font-size: 0.7rem;
+  font-size: 8px;
   resize: none;
   margin-left: 42%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   #Send {
     width: 8%;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: 700;
     margin-left: 46%;
   }
@@ -104,7 +126,7 @@ h6 {
 }
 
 button {
-  width: 3.5rem;
+  width: 70px;
   height: 2rem;
   background-color: blue;
   color: white;
@@ -114,8 +136,8 @@ button {
 }
 @media (min-width: 768px) {
   button {
-    width: 5rem;
-    height: 3rem;
+    width: 80px;
+    height: 50px;
     margin-left: 46%;
   }
 }

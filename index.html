@@ -11,38 +11,47 @@
     <link href="./css/article.css" rel="stylesheet">
     <link href="./css/nav.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
+    <link href="./css/lens.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/likes.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <header id="mainbackground">
-        <nav>
-            <div class="container">
-                <ul>
-                    <li><a href="./search.html?season=spring" target="_blank">I<span style="color: red"
-                                ;>♥</span>SPRING</a></li>
-                    <li><a href="./search.html?season=summer" target="_blank">I<span style="color: red"
-                                ;>♥</span>SUMMER</a></li>
-                </ul>
-                <div class="logo">
-                    <img alt="Nature photos" src="assets/images/Logo.jpg">
+
+    <header id="mainbackground" class="jumbotron container-fluid text-center">
+        <div class="col-sm-4">
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li><a href="./search.html?season=spring" target="_blank">I<span style="color: red"
+                                    ;>♥</span>SPRING</a></li>
+                        <li><a href="./search.html?season=summer" target="_blank">I<span style="color: red"
+                                    ;>♥</span>SUMMER</a></li>
+                    </ul>
+                    <div class="logo">
+                        <img alt="Nature photos" src="assets/images/Logo.jpg">
+                    </div>
+                    <ul>
+                        <li><a href="./search.html?season=autumn" target="_blank">I<span style="color: red"
+                                    ;>♥</span>AUTUMN</a></li>
+                        <li><a href="./search.html?season=winter" target="_blank">I<span style="color: red"
+                                    ;>♥</span>WINTER</a></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li><a href="./search.html?season=autumn" target="_blank">I<span style="color: red"
-                                ;>♥</span>AUTUMN</a></li>
-                    <li><a href="./search.html?season=winter" target="_blank">I<span style="color: red"
-                                ;>♥</span>WINTER</a></li>
-                </ul>
-            </div>
+        </div>
         </nav>
         <div class="callToAction container">
-            <div class="mainInfo">
-                <h1>Seasons photos</h1>
-                <a href="https://digital-photography-school.com/" target="_blank">Free photography course</a>
+            <div class="col-sm-12">
+                <div class="mainInfo">
+                    <h1>SEASONS PHOTOS</h1>
+                    <a href="https://digital-photography-school.com/" target="_blank">Free photography course</a>
+                </div>
             </div>
         </div>
+
     </header>
-    <section id="colorBoxes" class="container">
+    <section id="colorBoxes" class="container" class="container-fluid text-center col-sm-3">
         <div class="boxes">
             <div class="box">
                 <p>Spring photo tips:</p>
@@ -68,32 +77,15 @@
         </div>
     </section>
 
-    <article id="inspiration" class="container">
-        <h2>New ideas for the photos portfolio!</h2>
-        <h3>A photo resulting from the combination of three photos</h3>
+    <article id="inspiration" class="container" class="container-fluid text-center col-sm-4">
+        <h2>NEW IDEAS!<br>For the photos portfolio!</h2>
         </div>
 
-        <div class="steps">
-            <div class="step">
-                <p>Step 1: A photo with Botanical Garden of Craiova</p>
-                <img src="assets/images/garden.jpg" />
-            </div>
-            <div class="step">
-                <p>Step 2: A photo with the beach in Cap Aurora resort</p>
-                <img src="assets/images/beach.jpg" />
-            </div>
-            <div class="step">
-                <p>Step 3: A photo from the Front-end Development course</p>
-                <img src="assets/images/course.jpg" />
-            </div>
-            <div class="step">
-                <p>Step 4: A photo resulting from their combination</p>
-                <img src="assets/images/itGarden.jpg" alt="IT Office in Garden">
-            </div>
-        </div>
-        </div>
-        <div id="result"></div>
         <h3>Tree photographed in the 4 seasons</h3>
+        <p>Many photographers are looking to capture unique snapshots.
+            But few photograph a subject in different time periods.
+            So try to photograph a tree in spring, summer, autumn and winter!</p>
+        <br />
         <div class="steps">
             <div class="step">
                 <p>Step 1: Spring</p>
@@ -110,17 +102,15 @@
             <div class="step">
                 <p>Step 4: Winter</p>
                 <img src="assets/images/CWinter.jpg">
-            </div>
-            <div class="step">
-                <p>Step 5: All seasons</p>
-                <img src="assets/images/Seasons.jpg">
-            </div>
+            </div><br>
+
         </div>
-        <p>Many photographers are looking to capture unique snapshots.
-            But few photograph a subject in different time periods.
-            So try to photograph a tree in spring, summer, autumn and winter!</p>
-        <br />
-        <h4>Inspiration:</h4>
+        <div class="final">
+            <b>Step 5: All seasons</b><br>
+            <img src="assets/images/Seasons.jpg">
+        </div>
+        <div id="resultTree"></div>
+        <h4>SOURCES OF PHOTOGRAPHIC INSPIRATION:</h4>
         <div class="inspirations">
             <iframe src="https://www.cambridgeincolour.com/" rel="nofollow"></iframe>
             <iframe src="https://photonaturalist.com/" rel="nofollow"></iframe>
@@ -131,24 +121,26 @@
     <footer class="container">
         <h5>Comments:</h5>
         <form class="contactForm">
-            <label>First Name:<br>
-                <input id="firstname" type="text" name="Your Name" placeholder="First Name" />
-            </label>
-            <label>Last Name:<br>
-                <input id="lastname" type="text" name="Your Name" placeholder="Last Name" />
-            </label>
+            <label>Name:</label>
+            <!--<input type="" id='name'>-->
+            <div class="fake-input"></div>
+            <label>Surname:</label>
+            <!--<input type="text" id='surname'>-->
+            <div class="fake-input"></div>
             <label>Your e-mail:<br>
-                <input id="adress" type="text" name="Your E-mail Address" placeholder="Your E-mail Address" />
-            </label>
-            <label> <b>Your message: </b>
-                <textarea id="message" type="text" name="Your message" rows="5" cols="125"
-                    placeholder="Please describe your question or comment"></textarea></label> <br />
-            <input id="Send" type="submit" name="Send" value="Send" /><br>
+                <!-- <input id="adress" type="text" name="Your E-mail Address" placeholder="Your E-mail Address" />
+            </label>-->
+                <div class="fake-input"></div>
+                <label> <b>Your message: </b>
+                    <textarea id="message" type="text" name="Your message" rows="5" cols="125"
+                        placeholder="Please describe your question or comment"></textarea></label> <br />
+                <input id="Send" type="submit" name="Send" value="Send" /><br>
         </form>
     </footer>
     <h6>Likes: <span class="counter">0</span></h6>
     <button id="button">Like!</button>
     <p><br>&copy;</p>
+    </div>
 </body>
 
 </html>

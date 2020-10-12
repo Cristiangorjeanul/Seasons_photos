@@ -5,16 +5,17 @@ nav {
 }
 
 nav a {
-  font-size: 0.7rem;
+  font-size: 8px;
   text-decoration: none;
   color: blue;
   font-weight: bold;
   text-decoration: underline;
+  margin: 5px;
 }
 
 @media (min-width: 769px) {
   nav a {
-    font-size: 1.5rem;
+    font-size: 25px;
   }
 }
 
