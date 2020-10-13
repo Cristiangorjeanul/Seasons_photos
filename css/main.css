@@ -97,12 +97,12 @@ body {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    top: -50px;
+    top: -35px;
   }
 }
 
 .box p {
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
@@ -147,4 +147,59 @@ body {
     height: 1000px;
     margin-top: 5rem;
   }
+}
+
+#seasons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 100vw;
+  height: auto;
+}
+
+#main {
+  width: 100vw;
+}
+
+.part1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 10vw;
+}
+
+.part2 {
+  padding: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#landscape {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8f/Bachalpsee_reflection.jpg");
+}
+
+#spring {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/92/Colorful_spring_garden.jpg");
+}
+
+#summer {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/Hawaii_Creek.jpg");
+}
+
+#autumn {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Parcul_Her%C4%83str%C4%83u.jpg");
+}
+
+#winter {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/36/Levi%2C_Kittila_-_Finland_-_panoramio_-_aristidov_%287%29.jpg");
+}
+
+#flash {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/6/67/Lightnings_sequence_2_animation-wcag.gif");
 }

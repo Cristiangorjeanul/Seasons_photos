@@ -1,8 +1,14 @@
+footer h3 {
+  font-size: 32px;
+  text-align: center;
+  color: blue;
+}
+
 footer h5 {
   font-size: 15px;
   text-align: center;
   color: blue;
-  margin-top: 650px;
+  margin-top: 50px;
 }
 
 @media (min-width: 769px) {
@@ -91,7 +97,7 @@ footer textarea {
   }
 }
 
-#Send {
+#send {
   width: 20%;
   height: 35px;
   padding: 12px 20px;
@@ -106,7 +112,7 @@ footer textarea {
 }
 
 @media (min-width: 768px) {
-  #Send {
+  #send {
     width: 8%;
     font-size: 12px;
     font-weight: 700;
@@ -126,7 +132,7 @@ h6 {
 }
 
 button {
-  width: 78px;
+  width: 60px;
   height: 32px;
   background-color: blue;
   color: white;
@@ -136,7 +142,7 @@ button {
 }
 @media (min-width: 768px) {
   button {
-    width: 90px;
+    width: 78px;
     height: 50px;
     margin-left: 46%;
   }

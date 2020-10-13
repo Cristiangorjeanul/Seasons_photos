@@ -1,4 +1,5 @@
 article h2 {
+  padding-top: 50px;
   font-size: 35px;
   text-align: center;
   color: blue;
@@ -17,23 +18,25 @@ article h4 {
 }
 
 #inspiration {
-  height: 320px;
+  height: 120px;
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 
 @media only screen and (min-width: 769px) {
   #inspiration {
     top: 50px;
-    height: 873px;
+    height: 200px;
   }
 }
 
 .steps {
-  margin: 10px 0 10px 0;
+  padding-top: 290px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
 }
+
 
 .step {
   height: 50%;
@@ -45,18 +48,6 @@ article h4 {
   align-items: center;
 }
 
-article p {
-  font-size: 10px;
-  font-weight: bold;
-  color: blue;
-  text-align: center;
-}
-@media (min-width: 769px) {
-  article p {
-    font-size: 20px;
-  }
-}
-
 .step img {
   width: 100%;
   border-radius: 5px;
@@ -64,30 +55,12 @@ article p {
   box-shadow: 10px 10px 50px -20px black;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 769px) {
   .step img {
     justify-content: center;
-  }
-}
-
-.final {
-  color: red;
-  font-size: 25px;
-  text-align: center;
-  background-position:center;
-}
-
-.final img {
-  width: 100%;
-  border: solid blue 3px;
-  box-shadow: 10px 10px 50px -20px black;
-}
-
-@media (min-width: 769px) {
-  .final img {
-    width: 70%;
   }
 }
 
@@ -105,7 +78,6 @@ article p {
     height: 350px;
   }
 }
-
 
 .inspirations {
   padding: 5px;
