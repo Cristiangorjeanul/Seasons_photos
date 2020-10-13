@@ -1,16 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    var button = document.querySelector('#button');
-    var counter = 1;
+  var button = document.querySelector('#like');
+  var counter = 1;
+  button.addEventListener('click', function () {
+    document.querySelector('#like span').innerText = counter;
+    counter++;
+  });
 
-
-    button.addEventListener('click', function () {
-        document.querySelector('h6 span').innerText = counter;
-        counter++;
-    });
-
-    //slider
-    const time = 2500;
+  //slider
+  const time = 2500;
   const left = document.querySelector(".left");
   const right = document.querySelector(".right");
   const products = document.querySelector(".products");

@@ -1,17 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Times New Roman", sans-serif, Verdana;
-}
-
-#mainbackground {
+#main-background {
   width: 100%;
   height: 400px;
-  margin: 0 auto;
 }
 
 .callToAction.container {
@@ -50,7 +39,7 @@ body {
   padding: 2px 5px;
   background-color: red;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -93,8 +82,6 @@ body {
 
 @media (min-width: 769px) {
   .boxes {
-    width: 100%;
-    display: flex;
     justify-content: space-around;
     position: absolute;
     top: -35px;
@@ -112,7 +99,7 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
   height: 25%;
-  min-width: 220px;
+  min-width: 235px;
   background-color: blue;
   width: 23%;
   text-align: center;
