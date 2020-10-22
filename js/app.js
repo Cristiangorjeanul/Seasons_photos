@@ -5,7 +5,7 @@ $(function () {
         $(gallery).empty();
         $(images).each(function (index, image) {
             var newImage = $(`
-                <a data-fancybox="gallery" href="${image.largeImageURL}" class="gallery-element">
+                <a data-fancybox = "gallery" href="${image.largeImageURL}" class="gallery-element">
                     <img class="gallery-img" src="${image.webformatURL}" alt="">
                 </a>
             `);
@@ -51,5 +51,9 @@ $(function () {
 
     const season = getUrlParam('season');
     loadImages(season);
+
+
+
+
 
 });
