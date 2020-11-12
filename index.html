@@ -2,78 +2,72 @@
 <html>
 
 <head>
-    <title>Seasons photos</title>
+    <title>Photo Blog</title>
     <meta charset="UTF-8" />
-    <meta name="Nature photos"
-        content="nature photos, photo subject in four seasons, photography course, season photo tips">
+    <meta name="Season photos"
+        content="Photo blog, Nature photos, photo subject in four seasons, photography course, season photo tips">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/all.css" rel="stylesheet">
     <link href="./css/header.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/section.css" rel="stylesheet">
     <link href="./css/article.css" rel="stylesheet">
     <link href="./css/nav.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
-    <link href="./css/camera.css" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="./css/cameras.css" rel="stylesheet">
+    <link href="./css/puzzle.css" rel="stylesheet">
+    <link href="./css/fish.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/puzzle.js"></script>
 </head>
 
 <body>
 
-    <header id="header-background" class="jumbotron container-fluid text-center">
-        <div class="col-sm-12 col-xs-12">
+    <nav class="links">
+        <a href="./gallery.html?season=spring" target="_blank" class="gallery-links"
+            style="margin-left: 20px; text-shadow: 1px 1px 1px black;">
+            I<span style="color: red;">♥</span>SPRING</a>
+        <a href="./gallery.html?season=summer" target="_blank" class="gallery-links"
+            style="text-shadow: 1px 1px 1px black;">
+            I<span style="color: red;">♥</span>SUMMER</a>
+        <a href="./gallery.html?season=autumn" target="_blank" class="gallery-links"
+            style="text-shadow: 1px 1px 1px black;">
+            I<span style="color: red;">♥</span>AUTUMN</a>
+        <a href="./gallery.html?season=summer" target="_blank" class="gallery-links"
+            style="text-shadow: 1px 1px 1px black;">
+            I<span style="color: red;">♥</span>WINTER</a>
+    </nav>
 
-            <nav>
-                <div class="container">
-                    <ul>
-                        <li><a href="./search.html?season=spring" target="_blank">I<span style="color: red"
-                                    ;>♥</span>SPRING</a></li>
-                        <li><a href="./search.html?season=summer" target="_blank">I<span style="color: red"
-                                    ;>♥</span>SUMMER</a></li>
-                    </ul>
-                    <div class="logo">
-                        <img alt="Nature photos" src="assets/images/Logo.jpg">
-                    </div>
-                    <ul>
-                        <li><a href="./search.html?season=autumn" target="_blank">I<span style="color: red"
-                                    ;>♥</span>AUTUMN</a></li>
-                        <li><a href="./search.html?season=winter" target="_blank">I<span style="color: red"
-                                    ;>♥</span>WINTER</a></li>
-                    </ul>
-                </div>
-        </div>
-        </nav>
-
+    <header id="header-background">
         <div class="callToAction container">
-            <div class="col-sm-12">
-                <div class="headerInfo">
-
-                    <h1>SEASONS PHOTOS</h1>
-                    <h4 style="color: red; text-shadow: 2px 2px 5px black;">Join the community of this blog</h4>
-                    <a href="./form.html" target="_blank">JOIN</a>
-                </div>
+            <div class="headerInfo">
+                <h1>SEASON PHOTOS</h1>
+                <h4 style="color: red; text-shadow: 1px 1px 1px black;">
+                    Join the blog community</h4>
+                <a href="./form.html" target="_blank">JOIN</a>
             </div>
         </div>
 
         <div id="colorBoxes" class="container" class="container-fluid text-center col-sm-3">
             <div class="boxes">
-                <div class="box">
-                    <p>Spring photo tips:</p>
+                <div class="box" style="background-color: green; text-shadow: 1.2px 1.2px 1.2px black;">
+                    <p>Spring photo tips</p>
                     <a href="https://www.digitalphotomentor.com/7-tips-improving-spring-photography/" target="_blank">
                         <img src="assets/images/Spring.jpg" alt="Spring tips" /></a>
                 </div>
-                <div class="box">
-                    <p>Summer photo tips:</p>
+                <div class="box" style="background-color: red; text-shadow: 1.5px 1.5px 1.5px black;">
+                    <p>Summer photo tips</p>
                     <a href="https://digital-photography-school.com/5-hot-tips-improving-summer-photography/"
                         target="_blank">
                         <img src="assets/images/Summer.jpg" target="_blank" alt="Summer tips" /></a>
                 </div>
-                <div class="box">
-                    <p>Autumn photo tips:</p>
+                <div class="box" style="background-color: yellow; text-shadow: 1.5px 1.5px 1.5px black;">
+                    <p>Autumn photo tips</p>
                     <a href="https://www.techradar.com/how-to/10-autumn-photo-projects" target="_blank">
                         <img src="assets/images/Autumn.jpg" target="_blank" alt="Autumn tips" /></a>
                 </div>
-                <div class="box">
-                    <p>Winter photo tips:</p>
+                <div class="box" style="background-color: blue; text-shadow: 1.2px 1.2px 1.2px black;">
+                    <p>Winter photo tips</p>
                     <a href="https://www.outdoorphotographer.com/tips-techniques/nature-landscapes/tips-for-winter-photography/"
                         target="_blank">
                         <img src="assets/images/Winter.jpg" target="_blank" alt="Winter tips" /></a>
@@ -82,128 +76,272 @@
         </div>
     </header>
 
-    <main id="main">
-        <div id="seasons">
-            <div class="image-background" id="landscape">
-                <h1 style="color:white; text-shadow: 2px 2px 8px black;">PHOTO GUIDE<br>FOR<br>ALL SEASONS</h1>
+    <section>
+        <div id="section">
+            <div id="seasons">
+                <div class="image-background" id="landscape">
+                    <h1 style="color:white; text-shadow: 2px 2px 8px black; font-size: 37px;">
+                        PHOTO GUIDE<br>FOR<br>ALL SEASONS</h1><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/8/8f/Bachalpsee_reflection.jpg"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color: green; text-shadow: 1px 1px 1px black">
+                    SPRING PHOTOS ADVICE</h2>
+                <h4>Get perfect photos if you get close to the subject,<br>if you pick one subject and choose<br>ISO
+                    200, f/3.6, 16-35mm lens!</h4><br><br><br>
+
+                <div class="image-background" id="spring">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        Spring<br>in<br>Austria</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/9/92/Colorful_spring_garden.jpg"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color: red; text-shadow: 1.5px 1.5px 1.5px black">
+                    SUMMER PHOTOS ADVICE</h2>
+                <h4>Get perfect photos if you choose the period<br>after sunrise and before sunset and<br>ISO 100, f/10,
+                    16-50mm lens!</h4><br><br><br>
+
+                <div class="image-background" id="summer">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        Summer<br>in<br>America</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/Hawaii_Creek.jpg" target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color: yellow; text-shadow: 1.7px 1.7px 1.7px black">
+                    AUTUMN PHOTOS ADVICE</h2>
+                <h4>Get beautiful multicolored shades of leaves,<br>if you pop your camera on a tripod and<br>use 5x
+                    zoom ISO 200, f/8, 16-50mm lens!</h4><br><br><br>
+
+                <div class="image-background" id="autumn">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        Autumn<br>in<br>Romania</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Parcul_Her%C4%83str%C4%83u.jpg"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color: blue; text-shadow: 1px 1px 1px black">
+                    WINTER PHOTOS ADVICE</h2>
+                <h4>Get interesting photos when it`s snowing,<br>if you use filters, fast shutter speeds and<br>ISO 100,
+                    f/16, 16-35mm lens!</h4><br><br><br>
+
+                <div class="image-background" id="winter">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        Winter<br>in<br>Finland</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/3/36/Levi%2C_Kittila_-_Finland_-_panoramio_-_aristidov_%287%29.jpg"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color:white; text-shadow: 2px 2px 5px black;">
+                    LIGHT FILTERING ADVICE</h2>
+                <h4>Filters are recommended to reduce reflections,<br>the amount of light entering the lens<br>and the
+                    effect of purple fringing!</h4><br><br><br>
+
+                <div class="image-background" id="filter">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        The filters reduce<br>reflections but also<br>protect the lens!</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/5/5e/Neutral_density_filter_demonstration.jpg"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color:white; text-shadow: 2px 2px 5px black;">
+                    FLASH ADVICE</h2>
+                <h4> Landscape photography can only be done<br>with natural ambient light!<br>
+                    Artificial light is only recommended for lighting shaded areas!</h4><br><br><br>
+
+                <div class="image-background" id="flash">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        It is not recommended<br>to photograph landscapes<br>in the dark, rain or storm!</h2><br>
+                    <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                        <a href="https://upload.wikimedia.org/wikipedia/en/6/67/Lightnings_sequence_2_animation-wcag.gif"
+                            target="_blank">
+                            en.wikipedia.org</a></h5>
+                </div>
+
+                <br><br>
+                <h2 style="color:blue; text-shadow: 1px 1px 2px black;">
+                    UNDERWATER PHOTOS ADVICE</h2>
+                <h4> If you want to take underwater photos,<br>you can use an underwater housing<br>
+                    you can use an underwater housing!</h4><br><br><br>
+
+                <div class="image-background" id="underwater">
+                    <h2 style="color:white; text-shadow: 2px 2px 8px black;">
+                        Underwater housings provides<br>the best protection,<br>so you can go scuba diving with them!
+                    </h2>
+                    <div id="container">
+                        <h2 style="color:gold; text-shadow: 2px 2px 8px black;">Say a wish<br>to the goldfish!</h2>
+                        <div class="wrap">
+                            <div class="fish">
+                                <div class="position">
+                                    <div class="wing1">
+                                    </div>
+                                    <div class="wing2">
+                                    </div>
+                                    <div class="tail">
+                                    </div>
+                                    <div class="body">
+                                        <div class="eye">
+                                        </div>
+                                        <div class="mouth">
+                                        </div>
+                                        <div class="gill">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 style="color:blue; font-size: 10px; margin: 12px;">Photo from
+                            <a href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg"
+                                target="_blank">
+                                en.wikipedia.org</a></h5>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <article>
+        <div id="inspiration" class="container" class="container-fluid text-center col-sm-4">
+            <h2 style="color:white; text-shadow: 2px 2px 5px black;">
+                <span style="color:green; text-shadow: 1px 1px 1px black;">I</span>
+                <span style="color:red; text-shadow: 1.5px 1.5px 1.5px black;">D</span>
+                <span style="color:yellow; text-shadow: 1.7px 1.7px 1.7px black;">E</span>
+                <span style="color:blue; text-shadow: 1px 1px 1px black;">A</span>
+                <br><span style="color:white; text-shadow: 2px 2px 8px black;">
+                    FOR YOUR PORTFOLIO!</span></h2>
+            <h4 style="color:black;">Try to photograph the same tree from the same point each season!</h4><br>
+
+            <div class="steps">
+                <div class="step">
+                    <h6 style="color:green; text-shadow: 1px 1px 1px black;">
+                        Step 1<br>Spring</h6>
+                    <img src="assets/images/CSpring.jpg" style="border: 5px solid green;">
+                </div>
+                <div class="step">
+                    <h6 style="color:red; text-shadow: 1.5px 1.5px 1.5px black;">
+                        Step 2<br>Summer</h6>
+                    <img src="assets/images/CSummer.jpg" style="border: 5px solid red;">
+                </div>
+                <div class="step">
+                    <h6 style="color:yellow; text-shadow: 1.7px 1.7px 1.7px black;">
+                        Step 3<br>Autumn</h6>
+                    <img src="assets/images/CAutumn.jpg" style="border: 5px solid yellow;">
+                </div>
+                <div class="step">
+                    <h6 style="color:blue; text-shadow: 1px 1px 1px black;">
+                        Step 4<br>Winter</h6>
+                    <img src="assets/images/CWinter.jpg " style="border: 5px solid blue;">
+                </div><br>
             </div>
 
-            <h2>SPRING PHOTOS ADVICE</h2>
-            <h4>Get perfect photos if you get close to the subject,<br>if you pick one subject and choose<br>ISO
-                200,
-                f/3.6, 16-35mm lens!</h4><br><br>
+            <div id="camera1" class="camera1">
+                <div class="camera1-design">
+                    <div class="camera1-design-1"></div>
+                    <div class="camera1-design-2"></div>
+                    <div class="camera1-design-3"></div>
+                    <div class="camera1-design-4"></div>
+                    <div class="camera1-design-5"></div>
+                </div>
 
-            <div class="image-background" id="spring">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">Spring<br>in<br>Austria</h2><br>
+                <div class="camera1-lens">
+                    <div class="lens-1 lens1"></div>
+                    <div class="lens-2 lens1"></div>
+                    <div class="lens-3 lens1"></div>
+                </div>
             </div>
 
-            <h2>SUMMER PHOTOS ADVICE</h2>
-            <h4>Get perfect photos if you choose the period<br>after sunrise and before sunset and<br>ISO 100, f/10,
-                16-50mm lens!</h4><br><br>
+            <h5 style="color:black;">
+                Step 5<br>
+                Now you need to combine the four images<br>according to the model below:
+            </h5>
 
-            <div class="image-background" id="summer">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">Summer<br>in<br>America</h2><br>
+            <div id="result">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/B%C3%A4ume_Jahreszeit_2013.jpg">
+                <h5 style="color:blue; font-size: 10px; top: 1px; margin: 12px;">Photo from
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg"
+                        target="_blank">
+                        en.wikipedia.org</a></h5>
             </div>
-
-            <h2>AUTUMN PHOTOS ADVICE</h2>
-            <h4>Get beautiful multicolored shades of leaves,<br>if you pop your camera on a tripod and<br>use 5x
-                zoom
-                ISO 200, f/8, 16-50mm lens!</h4><br><br>
-
-            <div class="image-background" id="autumn">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">Autumn<br>in<br>Romania</h2><br>
-            </div>
-
-            <h2>WINTER PHOTOS ADVICE</h2>
-            <h4>Get interesting photos when it`s snowing,<br>if you use filters, fast shutter speeds and<br>ISO 100,
-                f/16, 16-35mm lens!</h4><br><br>
-
-            <div class="image-background" id="winter">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">Winter<br>in<br>Finland</h2><br>
-            </div>
-
-            <h2>LIGHT FILTERING ADVICE</h2>
-            <h4>Filters are recommended to reduce reflections,<br>the amount of light entering the lens<br>and the
-                effect of purple fringing!</h4><br><br>
-
-            <div class="image-background" id="filter">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">The filters also<br>protect the lens!</h2><br>
-            </div>
-
-            <h2>FLASH ADVICE</h2>
-            <h4> Landscape photography can only be done<br>with natural ambient light!<br>Artificial light is only
-                recommended for lighting shaded areas!</h4><br><br>
-
-            <div class="image-background" id="flash">
-                <h2 style="color:white; text-shadow: 2px 2px 8px black;">It is not recommended<br>to photograph
-                    landscapes<br>in the dark, rain or storm!</h2><br>
-            </div>
-    </main>
-
-    <article id="inspiration" class="container" class="container-fluid text-center col-sm-4">
-        <h2>NEW IDEA FOR YOUR PORTFOLIO!</h2>
-        <h4>Try to photograph the same tree from the same point each season!</h4><br>
-
-        <div class="steps">
-            <div class="step">
-                <h6>Step 1:<br>Spring</h6>
-                <img src="assets/images/CSpring.jpg" />
-            </div>
-            <div class="step">
-                <h6>Step 2:<br>Summer</h6>
-                <img src="assets/images/CSummer.jpg">
-            </div>
-            <div class="step">
-                <h6>Step 3:<br>Autumn</h6>
-                <img src="assets/images/CAutumn.jpg">
-            </div>
-            <div class="step">
-                <h6>Step 4:<br>Winter</h6>
-                <img src="assets/images/CWinter.jpg">
-            </div><br>
-        </div>
-
-        <div id="dslr" class="dslr">
-            <div class="dslr-design">
-                <div class="dslr-design-1"></div>
-                <div class="dslr-design-2"></div>
-                <div class="dslr-design-3"></div>
-                <div class="dslr-design-4"></div>
-                <div class="dslr-design-5"></div>
-            </div>
-
-            <div class="lens-group">
-                <div class="lens-1 lens"></div>
-                <div class="lens-2 lens"></div>
-                <div class="lens-3 lens"></div>
-            </div>
-        </div>
-
-        <h5>Step 5: Now you need to combine the four images<br>according to the model below:</h5>
-        <div id="result">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/B%C3%A4ume_Jahreszeit_2013.jpg">
-        </div>
-        </div>
     </article>
 
+    <aside id="puzzle">
+        <h1 class="text-center" style="color:orange;">PHOTO PUZZLE</h1>
+        <h3 class="text-center">Solve this puzzle to see<br>
+            a beautiful sunrise<br>at the Black Sea!</h3>
+        <div class="panel"></div>
+    </aside>
+
+    <h1 class="text-center" style="color:magenta;">SMILE PLEASE!!!</h1><br><br>
+    <div class="camera2">
+        <div class="lens2">
+            <div class="inner-lens">
+                <div class="inner-lens-2"></div>
+            </div>
+        </div>
+        <div class="camera-button1"></div>
+        <div class="camera-button2"></div>
+        <div class="flash">
+            <div class="flash-light"></div>
+        </div>
+    </div>
+
     <footer class="footer-container">
-        <h5>Comments:</h5>
+
+        <h4>Comments:</h4>
+
         <form class="contactForm">
-            <label>Name:</label>
+            <label>&nbsp;&nbsp;Name:</label>
             <!--<input type="" id='name'>-->
             <div class="fake-input"></div>
-            <label>Surname:</label>
-            <!--<input type="text" id='surname'>-->
-            <div class="fake-input"></div>
-            <label>Your e-mail:<br>
+
+            <label>&nbsp;&nbsp;E-mail:<br>
                 <!-- <input id="address" type="text" name="Your E-mail Address" placeholder="Your E-mail Address" />
             </label>-->
                 <div class="fake-input"></div>
-                <label> <b>Your message: </b>
+                <label> <b>&nbsp;Message: </b>
                     <textarea id="message" type="text" name="Your message" rows="5" cols="125"
                         placeholder="Please describe your question or comment"></textarea></label> <br />
                 <br><input id="send" type="submit" name="send" value="Send" /><br>
         </form>
+
+        <div id="logo">
+            <div class="logo-bar">
+                <a href="#" class="face" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="inst" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="yout" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="link" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="twit" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="snap" target="_blank"><i class="fa fa-snapchat"></i></a>
+                <a href="#" class="pint" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+
+        <hr class='line'>
+
+        <div class='info'>
+            <i>This is a demo website! We do not collect data!<br>
+                That`s why you can not enter data in the form!</i><br>
+        </div>
+        </div>
+
     </footer>
 
 </body>

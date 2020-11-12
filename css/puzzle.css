@@ -1,0 +1,62 @@
+
+aside {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: cornsilk;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 335px;
+  margin: auto;
+}
+
+.tiles {
+  float: left;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  border: solid 2px black;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0);
+  background: url(../assets/images/puzzle.JPG);
+  background-size: 299%;
+}
+
+.tile1 {
+  background-position: top left;
+}
+
+.tile2 {
+  background-position: top;
+}
+
+.tile3 {
+  background-position: top right;
+}
+
+.tile4 {
+  background-position: center left;
+}
+
+.tile5 {
+  background-position: center;
+}
+
+.tile6 {
+  background-position: center right;
+}
+
+.tile7 {
+  background-position: bottom left;
+}
+
+.tile8 {
+  background-position: bottom;
+}
+
+.tile {
+  background-position: bottom right;
+}

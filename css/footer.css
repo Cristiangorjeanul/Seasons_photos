@@ -1,7 +1,8 @@
 .footer-container {
-  margin-top: 10px;
+  margin-top: 150px;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 
 @media (min-width: 769px) {
@@ -9,38 +10,42 @@
     margin-top: 100px;
   }
 }
-footer h3 {
-  font-size: 32px;
+
+footer h4 {
+  font-size: 20px;
   text-align: center;
-  color: blue;
+  color: black;
+  margin-right: 2%;
 }
 
 footer h5 {
   font-size: 15px;
   text-align: center;
-  color: blue;
+  color: black;
   margin-top: 50px;
+  text-align: center;
 }
 
 @media (min-width: 769px) {
   footer h5 {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
 footer label {
   font-size: 15px;
-  color: blue;
+  color: black;
   font-weight: bold;
   text-align: justify;
   text-justify: inter-word;
   margin-left: 41%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   footer label {
-    font-size: 20px;
-    margin-left: 45%;
+    font-size: 15px;
+    margin-left: 46%;
   }
 }
 
@@ -56,6 +61,7 @@ footer label {
   text-align: justify;
   text-justify: inter-word;
   resize: none;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -63,7 +69,7 @@ footer label {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 21px;
+    font-size: 15px;
     font-weight: 700;
     align-items: center;
   }
@@ -81,12 +87,13 @@ footer input {
   background-color: lightblue;
   font-size: 15px;
   resize: none;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   footer input {
     width: 50%;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 25%;
   }
 }
@@ -108,57 +115,101 @@ footer textarea {
   footer textarea {
     width: 50%;
     margin-left: 25%;
-    font-size: 20px;
   }
 }
 
 #send {
   width: 25%;
   height: 35px;
-  padding: 12px 20px;
+  padding: 8px 20px;
   box-sizing: border-box;
   border: 2px solid blue;
   border-radius: 4px;
-  background-color: greenyellow;
-  font-size: 8px;
+  background-color: red;
   resize: none;
-  margin-left: 42%;
+  margin-left: 38%;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   #send {
     width: 8%;
-    font-size: 12px;
     font-weight: 700;
-    margin-left: 46%;
+    margin-left: 45.8%;
   }
 }
 
-h6 {
-  font-size: 15px;
+#send:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+footer i {
+  font-size: 12px;
   text-align: center;
 }
-@media (min-width: 768px) {
-  h6 {
-    font-size: 25px;
-    text-align: center;
-  }
+
+#logo {
+  width: 180px;
+  height: 20px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 15px;
 }
 
-button {
-  width: 75px;
-  height: 32px;
-  background-color: blue;
+.logo-bar a {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.logo-bar a:hover {
+  transform: scale(1.2);
+}
+
+.face {
+  background: hsl(221, 44%, 40%);
   color: white;
-  text-align: center;
-  margin-left: 43%;
-  font-weight: 700;
 }
-@media (min-width: 768px) {
-  button {
-    width: 77px;
-    height: 50px;
-    margin-left: 46%;
-  }
+
+.twit {
+  background: hsl(206, 82%, 60%);
+  color: white;
+}
+
+.inst {
+  background: hsl(315, 71%, 50%);
+  color: white;
+}
+
+.link {
+  background: blue;
+  color: white;
+}
+
+.yout {
+  background: hsl(0, 100%, 50%);
+  color: white;
+}
+
+.snap {
+  background: hsl(60, 100%, 50%);
+  color: white;
+}
+
+.pint {
+  background: #c92228;
+  color: white;
+}
+
+.final {
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
 }

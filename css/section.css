@@ -1,17 +1,28 @@
-#main {
+#section {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 1px;
 }
 
-#main h1 {
+@media (min-width: 768px) {
+  #section {
+    margin-top: -50px;
+  }
+}
+
+#section h1 {
   font-size: 37px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
-  #main h1 {
+  #section h1 {
     font-size: 50px;
   }
+}
+
+#section h2 {
+  font-size: 32px;
+  text-align: center;
 }
 
 #seasons {
@@ -32,7 +43,7 @@
   background-attachment: fixed;
   background-position: center;
   color: white;
-  padding: 10vw;
+  padding: 15vw;
 }
 
 #landscape {
@@ -68,4 +79,9 @@
 #flash {
   width: 100vw;
   background-image: url("https://upload.wikimedia.org/wikipedia/en/6/67/Lightnings_sequence_2_animation-wcag.gif");
+}
+
+#underwater {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg");
 }
