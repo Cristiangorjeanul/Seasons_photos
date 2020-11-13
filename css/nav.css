@@ -1,16 +1,17 @@
 
 .links {
   font-size: 15px;
-  font-family: 'Arial Narrow', Impact, Haettenschweiler, sans-serif;
+  font-family: 'Arial Narrow', 'Times New Roman', Times, serif, sans-serif;
   font-weight: 800;
+  margin: auto;
   text-align: center;
-  background: blue;
-  padding-top: 2px;
+  background: black;
+  padding-top: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 35px;
+  height: 21px;
 }
 
 @media (min-width: 768px) {
@@ -21,20 +22,15 @@
 
 .links a {
   color: white;
-  padding-right: 10px;
+  padding: .1px 5px 1.5px  5px;
+  text-shadow: 1.5px 1.5px 1.5px black;
   text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .links a {
-    padding-right: 50px;
-  }
 }
 
 .gallery-links:hover,
 .gallery-links:active {
-  color: red;
-  animation: gallery-links 0.4s ease-in-out;
+  color: cyan;
+  animation: gallery-links 0.35s ease-in-out;
 }
 
 @keyframes gallery-links {

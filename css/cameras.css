@@ -239,8 +239,8 @@
 }
 
 .lens2 {
-  width: 150px;
-  height: 150px;
+  width: 127px;
+  height: 127px;
   background-color: yellow;
   display: flex;
   justify-content: center;
@@ -249,8 +249,8 @@
 }
 
 .inner-lens {
-  width: 115px;
-  height: 115px;
+  width: 95px;
+  height: 95px;
   background-color: cyan;
   display: flex;
   justify-content: center;
@@ -326,6 +326,38 @@
   background-color: white;
   left: 117px;
   top: -29px;
+  animation: 2.5s flash-animation linear infinite;
+}
+
+@keyframes flash-animation {
+  0% {
+    background-color: magenta;
+    top: -12px;
+  }
+  35% {
+    background-color: magenta;
+    top: -12px;
+  }
+  50% {
+    background-color: white;
+    top: -29px;
+  }
+  59% {
+    background-color: white;
+    top: -29px;
+  }
+  60% {
+    background-color: magenta;
+    top: -29px;
+  }
+  75% {
+    background-color: magenta;
+    top: -12px;
+  }
+  100% {
+    background-color: magenta;
+    top: -12px;
+  }
 }
 
 .camera-button1 {
@@ -362,18 +394,24 @@
 
 @keyframes flash-light-animation {
   0% {
-    box-shadow: 0 0 0 0 white;
+    box-shadow: 0 0 0 0 magenta;
   }
   50% {
+    box-shadow: 0 0 0 0 magenta;
+  }
+  51% {
     box-shadow: 0 0 0 0 white;
   }
   55% {
-    box-shadow: 0 0 135px 135px white;
+    box-shadow: 0 0 150px 150px white;
   }
   59% {
     box-shadow: 0 0 0 0 white;
   }
+  60% {
+    box-shadow: 0 0 0 0 magenta;
+  }
   100% {
-    box-shadow: 0 0 0 0 white;
+    box-shadow: 0 0 0 0 magenta;
   }
 }
