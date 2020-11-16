@@ -52,21 +52,21 @@ h5 {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c3/Wald_Vergissmeinnicht.jpg);
 }
 
-.texts {
+.animated-text {
   width: 100%;
   height: 25px;
   margin: auto;
   margin-top: 20px;
   font-size: 15px;
   color: red;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1.5px 1.5px 1.5px black;
   font-weight: 700;
   padding: 1px;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .texts {
+  .animated-text {
     font-size: 25px;
   }
 }

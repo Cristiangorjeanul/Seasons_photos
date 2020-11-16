@@ -223,8 +223,17 @@
   background: black;
 }
 
+#camera2 {
+  width: 350px;
+  height: 390px;
+  border-radius: 15px;
+  background: blue;
+  margin: auto;
+}
+
 .camera2 {
-  width: 335px;
+  top: 35px;
+  width: 325px;
   height: 175px;
   background-color: magenta;
   border-radius: 15px;
@@ -234,8 +243,6 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 100px;
 }
 
 .lens2 {
@@ -332,7 +339,7 @@
 @keyframes flash-animation {
   0% {
     background-color: magenta;
-    top: -12px;
+     top: -12px;
   }
   35% {
     background-color: magenta;
@@ -347,7 +354,7 @@
     top: -29px;
   }
   60% {
-    background-color: magenta;
+    background-color:magenta;
     top: -29px;
   }
   75% {
@@ -356,7 +363,7 @@
   }
   100% {
     background-color: magenta;
-    top: -12px;
+     top: -12px;
   }
 }
 

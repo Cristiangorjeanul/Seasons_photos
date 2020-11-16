@@ -1,8 +1,8 @@
 $(function () {
 
-    var words = [' Welcome to the wonderful world of photography!', 'Click I♥SPRING to see beautiful "fresh" photos!',
-        'Click I♥SUMMER to see beautiful "hot" photos!', 'Click I♥AUTUMN to see "multicolored" photos!',
-        'Click I♥WINTER to see beautiful "cold" photos!', 'Scroll down to read seasonal photography tips!!!'],
+    var words = [' Welcome to the wonderful world of photography!', 'Click I♥SPRING to see beautiful "lively" photos!',
+        'Click I♥SUMMER to see warm "sunny" photos!', ' Click I♥AUTUMN to see "multicolored" photos!',
+        'Click I♥WINTER to see bright "frozen" photos!', 'Scroll down to read seasonal photography tips!!!'],
         part,
         i = 0,
         offset = 0,
@@ -41,7 +41,7 @@ $(function () {
                     offset--;
                 }
             }
-            $('.texts').text(part);
+            $('.animated-text').text(part);
         }, speed);
     };
 
