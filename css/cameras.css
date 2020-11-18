@@ -225,7 +225,7 @@
 
 #camera2 {
   width: 350px;
-  height: 390px;
+  height: 435px;
   border-radius: 15px;
   background: blue;
   margin: auto;
@@ -339,7 +339,7 @@
 @keyframes flash-animation {
   0% {
     background-color: magenta;
-     top: -12px;
+    top: -12px;
   }
   35% {
     background-color: magenta;
@@ -354,7 +354,7 @@
     top: -29px;
   }
   60% {
-    background-color:magenta;
+    background-color: magenta;
     top: -29px;
   }
   75% {
@@ -363,7 +363,7 @@
   }
   100% {
     background-color: magenta;
-     top: -12px;
+    top: -12px;
   }
 }
 

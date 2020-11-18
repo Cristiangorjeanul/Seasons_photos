@@ -3,10 +3,10 @@
   width: 150px;
   margin: auto;
   z-index: 100;
-  animation: left-right 5s ease infinite;
+  animation: ufo 5s ease infinite;
 }
 
-@keyframes left-right {
+@keyframes ufo {
   0%,
   100% {
     transform: translateY(-850%);
